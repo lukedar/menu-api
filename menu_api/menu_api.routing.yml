@@ -1,0 +1,8 @@
+# Menu API endpoints
+
+menu_api.get:
+  path: 'api/menus/{menu_name}'
+  defaults: { _controller: '\Drupal\menu_api\Controller\MenuAPIController::get_menus' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'

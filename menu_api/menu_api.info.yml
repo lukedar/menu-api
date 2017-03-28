@@ -1,0 +1,5 @@
+name: Menu API
+type: module
+description: API module for retrieving menu data.
+author: Whatcar
+core: 8.x
